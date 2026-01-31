@@ -69,15 +69,17 @@ public class ExpenseParser {
         return new Expense(amount, category, description, Instant.now());
     }
 
-    public static void main(String[] args) {
-        MockEmailGenerator.generateEmails(5).forEach(email -> {
-            Expense exp = emailParser(email);
-            if (exp != null) {
-                System.out.printf("Parsed: %.2f | %s | %s | %s%n",
-                        exp.amount(), exp.category(), exp.description(), exp.timestamp());
-            } else {
-                System.out.println("Failed to parse: " + email);
-            }
-        });
-    }
+    //For testing purpose
+
+//    public static void main(String[] args) {
+//        MockEmailGenerator.generateEmails(5).forEach(email -> {
+//            Expense exp = emailParser(email);
+//            if (exp != null) {
+//                System.out.printf("Parsed: %.2f | %s | %s | %s%n",
+//                        exp.amount(), exp.category(), exp.description(), exp.timestamp());
+//            } else {
+//                System.out.println("Failed to parse: " + email);
+//            }
+//        });
+//    }
 }
