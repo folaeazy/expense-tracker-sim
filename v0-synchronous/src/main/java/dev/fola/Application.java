@@ -47,8 +47,10 @@ public class Application {
 
         }
         double avgMs = (totalNs / (double) MEASUREMENT_RUNS) / 1_000_000.0;
+        double avgSec = avgMs / 1000.0;
         System.out.printf("\nAverage over %d runs (%,d emails): %.1f ms%n", MEASUREMENT_RUNS, EMAIL_COUNT, avgMs);
         System.out.printf("Throughput: ~%.0f emails/sec%n", (EMAIL_COUNT / (avgMs / 1000.0)));
+        System.out.printf("║ Avg time                : %8.2f s       ║%n", avgSec);
 
 
 
