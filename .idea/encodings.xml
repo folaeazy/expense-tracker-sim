@@ -11,7 +11,7 @@
     <file url="file://$PROJECT_DIR$/v1-executor-service-thread/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/v2-virtual-thread/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/v2-virtual-thread/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v3-full-concurency/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v3-full-concurency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v3-spring-schedular/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v3-spring-schedular/src/main/resources" charset="UTF-8" />
   </component>
 </project>

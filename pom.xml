@@ -12,7 +12,7 @@
         <module>v0-synchronous</module>
         <module>v1-basic-thread</module>
         <module>v2-virtual-thread</module>
-        <module>v3-full-concurency</module>
+        <module>v3-spring-schedular</module>
         <module>v1-executor-service-thread</module>
     </modules>
 
