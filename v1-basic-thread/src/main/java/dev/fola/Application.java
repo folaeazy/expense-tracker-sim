@@ -19,7 +19,7 @@ public class Application {
         System.out.println("=== v1 - Basic Threads Expense Importer (with timing loop) ===\n");
 
         // === Configuration - tune these to see clear differences ===
-        final int EMAIL_COUNT       = 5000;       // Try 1000, 5000, 20000...
+        final int EMAIL_COUNT       = 20000;       // Try 1000, 5000, 20000...
         final int WARMUP_RUNS       = 3;          // Enough to warm up JIT
         final int MEASUREMENT_RUNS  = 5;          // For stable average
 
